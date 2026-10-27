@@ -5,7 +5,8 @@
   "compatibility_date": "2026-09-18",
   "compatibility_flags": ["nodejs_compat"],
   "vars": {
-    "NODE_ENV": "production"
+    "NODE_ENV": "production",
+    "CF_LX_SOURCE_URL": "https://raw.githubusercontent.com/Manngok/Jstore/main/Chang.js"
   },
   "build": {
     "command": "npm run cloudflare:prepare"
